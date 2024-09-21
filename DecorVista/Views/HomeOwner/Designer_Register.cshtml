@@ -1,0 +1,89 @@
+﻿@model DecorVista.Img_Models.DesinerProfile
+
+@{
+    ViewData["Title"] = "Designer_Register";
+    Layout = "~/Views/Shared/Header_Footer.cshtml";
+}
+
+<div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Register Interior Designer</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Register Interior Designer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header Start -->
+<!-- Contact Start -->
+<div class="container-fluid bg-white">
+    <div class="container">
+
+        <div class="col-lg-7 mb-5 my-lg-5 py-5 pl-lg-5">
+            <div class="contact-form">
+                <div id="success"></div>
+        <form asp-action="Designer_Register" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Profile_Img" class="control-label"></label>
+                <input asp-for="Profile_Img" class="form-control" />
+                <span asp-validation-for="Profile_Img" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="firstName" class="control-label"></label>
+                <input asp-for="firstName" class="form-control" />
+                <span asp-validation-for="firstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lastName" class="control-label"></label>
+                <input asp-for="lastName" class="form-control" />
+                <span asp-validation-for="lastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <p style="color: red;">@ViewBag.Acc</p>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input type="password" asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="contactphone" class="control-label"></label>
+                <input asp-for="contactphone" class="form-control" />
+                <span asp-validation-for="contactphone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="yearsofexperience" class="control-label"></label>
+                <input asp-for="yearsofexperience" class="form-control" />
+                <span asp-validation-for="yearsofexperience" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="specialization" class="control-label"></label>
+                <input asp-for="specialization" class="form-control" />
+                <span asp-validation-for="specialization" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="portfolio_Img" class="control-label"></label>
+                <input asp-for="portfolio_Img" class="form-control" />
+                <span asp-validation-for="portfolio_Img" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Contact End -->

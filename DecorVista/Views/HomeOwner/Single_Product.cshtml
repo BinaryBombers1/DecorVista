@@ -1,0 +1,154 @@
+﻿@model DecorVista.Models.Product_Review
+
+@{
+    ViewData["Title"] = "Single_Product";
+    Layout = "~/Views/Shared/Header_Footer.cshtml";
+}
+
+<!-- Page Header Start -->
+<div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Product Detail</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Product Detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="d-flex flex-column align-items-center justify-content-center bg-primary h-100 py-5 px-3">
+                    <i class="flaticon-brickwall display-1 font-weight-normal text-secondary mb-3"></i>
+                    <img src="~/MyImages/@ViewBag.img" alt="" style="height: 250px;" />
+                </div>
+            </div>
+            <div class="col-lg-7 m-0 my-lg-5 pt-5 pb-5 pb-lg-2 pl-lg-5">
+                <div class="row py-2">
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="flaticon-house font-weight-normal text-primary m-0 mr-3"></h1>
+                            <h5 class="text-truncate m-0">Product Name: @ViewBag.pname</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="flaticon-stairs font-weight-normal text-primary m-0 mr-3"></h1>
+                            <h5 class="text-truncate m-0">Price: @ViewBag.pri </h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1>
+                            <h5 class="text-truncate m-0">Detail: @ViewBag.des</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1>
+                            <h5 class="text-truncate m-0">Category: @ViewBag.cat</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1>
+                            <h5 class="text-truncate m-0">Brand: @ViewBag.brand</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center mb-4">
+                            <h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1>
+                            
+                            <form action="@Url.Action("cart", "HomeOwner")" method="post">
+                                <input type="hidden" name="p" value="@ViewBag.id" />
+                                <input type="hidden" name="u" value="@ViewBag.User" />
+                                <button type="submit" class="btn btn-primary">Add to Cart</button>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-white">
+    <div class="container">
+
+        <div class="col-lg-7 mb-5 my-lg-5 py-5 pl-lg-5" style="margin-left: 20%;">
+            <div class="contact-form">
+                <div id="success"></div>
+
+                <br />
+                <br />
+                <br />
+                <h1>Reviews</h1>
+                <h3 class="text-truncate m-0">Comment: @ViewBag.Comment</h3>
+                <h5 class="text-truncate m-0">Name: @ViewBag.by</h5>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid bg-white">
+    <div class="container">
+
+        <div class="col-lg-7 mb-5 my-lg-5 py-5 pl-lg-5" style="margin-left: 20%;">
+            <div class="contact-form">
+                <div id="success"></div>
+                <h1>Reviews</h1>
+        <form asp-action="Single_Product">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="hidden" asp-for="user_id" class ="form-control" value="@ViewBag.User" />
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="product_id" class ="form-control" value="@ViewBag.id" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Comment" class="control-label"></label>
+                <input asp-for="Comment" class="form-control" />
+                <span asp-validation-for="Comment" class="text-danger"></span>
+            </div>
+                    <div class="form-group">
+
+                        <select class="form-control form-select" asp-for="Review" aria-label="Default select example">
+                            <option value="1">One Star</option>
+                            <option value="2">Two Star</option>
+                            <option value="3">Three Star</option>
+
+                            <option value="4">Four Star</option>
+
+                            <option value="5">Five Star</option>
+                        </select>
+                    </div>
+                    <br />
+            <div class="form-group">
+                <input type="submit" value="Your's Feedback" class="btn btn-primary" />
+            </div>
+        </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById("scheduledDate").setAttribute('min', today);
+    });
+</script>

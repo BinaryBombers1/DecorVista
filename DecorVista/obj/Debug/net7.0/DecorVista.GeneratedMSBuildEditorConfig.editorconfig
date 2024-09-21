@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DecorVista
+build_property.RootNamespace = DecorVista
+build_property.ProjectDir = D:\DecorVista\DecorVista\DecorVista\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DecorVista\DecorVista\DecorVista
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/add_category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWRkX2NhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Contect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udGVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Designer_review.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVzaWduZXJfcmV2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Home_Owner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9tZV9Pd25lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Interior_Designer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW50ZXJpb3JfRGVzaWduZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Prod_review.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZF9yZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Update_Prods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlX1Byb2RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Upload_Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBsb2FkX0Jsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Upload_Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBsb2FkX0dhbGxlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Admin/Upload_Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBsb2FkX1Byb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXEFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXEFwcG9pbnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXEJsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXGNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXENvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Designers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXERlc2lnbmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Designer_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXERlc2lnbmVyX0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Designer_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXERlc2lnbmVyX1JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXEdhbGxlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXFBvcnRmb2xpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Review_Designer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXFJldmlld19EZXNpZ25lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXFNlcnZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/Single_Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXFNpbmdsZV9Qcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/User_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXFVzZXJfTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/HomeOwner/User_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU93bmVyXFVzZXJfUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/InteriorDesigner/Appointment_Req.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJpb3JEZXNpZ25lclxBcHBvaW50bWVudF9SZXEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/InteriorDesigner/Booked_Appointments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJpb3JEZXNpZ25lclxCb29rZWRfQXBwb2ludG1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/InteriorDesigner/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJpb3JEZXNpZ25lclxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/InteriorDesigner/Interior.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJpb3JEZXNpZ25lclxJbnRlcmlvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Shared/admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Shared/Header_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlcl9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Shared/InteriorDesigner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEludGVyaW9yRGVzaWduZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DecorVista/DecorVista/DecorVista/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-axegimfql7

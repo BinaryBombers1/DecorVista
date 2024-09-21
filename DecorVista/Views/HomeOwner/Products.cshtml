@@ -1,0 +1,60 @@
+﻿@model IEnumerable<DecorVista.Models.Products>
+
+@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/Header_Footer.cshtml";
+}
+
+<!-- Page Header Start -->
+<div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Products</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- Projects Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col text-center mb-4">
+                <h6 class="text-primary font-weight-normal text-uppercase mb-3">Our Products</h6>
+                <h1 class="mb-4">Some Of Our Awesome Products</h1>
+            </div>
+        </div>
+        <div class="row mx-1 portfolio-container">
+
+            @foreach (var item in Model) {
+            <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item ">
+             <div class="card">
+
+                    
+                        <img class="img-fluid" src="~/assets/img/blog-1.jpg" width="100%" alt="">
+                        <div class="container">
+
+                        <h4>Name: <span style="color:darkgoldenrod;">@Html.DisplayFor(modelItem => item.product_name)</span></h4>
+                        <h4>price: <span style="color:darkgoldenrod;">@Html.DisplayFor(modelItem => item.price)</span></h4>
+                    <div class="form-group">
+                            <a href="@Url.Action("Single_Product","HomeOwner", new { us = item.product_id })" class="btn btn-primary">Read More</a>
+ </div>
+                        </div>
+                    </div>
+              
+            </div>
+
+            }
+            <!-- Closing portfolio-item div -->
+        </div>
+    </div>
+</div>
+<!-- Projects End -->

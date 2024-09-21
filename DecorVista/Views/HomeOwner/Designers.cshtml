@@ -1,0 +1,124 @@
+﻿@model IEnumerable<DecorVista.Models.InteriorDesigner>
+
+@{
+    ViewData["Title"] = "Designers";
+    Layout = "~/Views/Shared/Header_Footer.cshtml";
+}
+
+@*<h1>Designers</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.firstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.contactphone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.yearsofexperience)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.specialization)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.portfolio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.firstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.contactphone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.yearsofexperience)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.specialization)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.portfolio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.designer_Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.designer_Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.designer_Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@
+
+
+<!-- Team Start -->
+<div class="container-fluid bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="py-5 px-4 h-100 bg-primary d-flex flex-column align-items-center justify-content-center">
+                    <h6 class="text-white font-weight-normal text-uppercase mb-3">Our Team</h6>
+                    <h1 class="mb-0 text-center">Designers</h1>
+                </div>
+            </div>
+
+            <div class="col-md-8 col-sm-6 p-0 py-sm-5">
+                <div class="owl-carousel team-carousel position-relative p-0 py-sm-5">
+                    @foreach (var item in Model)
+                    {
+                        <div class="team d-flex flex-column text-center mx-3" >
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="~/MyImages/@Html.DisplayFor(modelItem => item.Profile)" alt="" style="height: 250px;">
+                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                                    @*<a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-primary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-primary text-center px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>*@
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column bg-secondary text-center py-3">
+                                <h5 class="text-white"><a href="@Url.Action("Appointment", "HomeOwner", new { designerid = item.designer_Id })" style="text-decoration: none;">@Html.DisplayFor(modelItem => item.firstName)</a></h5>
+                                <p class="m-0">@Html.DisplayFor(modelItem => item.specialization)</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+<!-- Team End -->

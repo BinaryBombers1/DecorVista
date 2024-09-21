@@ -1,0 +1,57 @@
+﻿@model IEnumerable<DecorVista.Models.Cart>
+
+@{
+    ViewData["Title"] = "cart";
+    Layout = "~/Views/Shared/Header_Footer.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">My Wishlist</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">My Wishlist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Products.Product_Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products.product_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products.price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <img src="~/MyImages/@Html.DisplayFor(modelItem => item.Products.Product_Image)" class="img-fluid" style="height: 100px; width:100px;">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Products.product_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Products.price)
+            </td>
+            <td>
+                    <a asp-action="Delete_cart" asp-route-id="@item.Cartid"><i class="fa fa-close" style="font-size:26px;color:red"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
